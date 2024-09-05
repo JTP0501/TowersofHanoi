@@ -67,7 +67,7 @@ def towers_simul(n: int, rods: list[list[str]]):
     
     """ Main game loop """
     
-    turn_count: int = 1
+    turn_count: int = 0
 
     def towers_print(n: int, rods: list[list[str]]):
         """ This function prints an instance of the game (visual representation)"""
